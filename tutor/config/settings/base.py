@@ -14,6 +14,11 @@ environ.Env.read_env()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
+# new
+# reading .env file
+environ.Env.read_env()
+
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 
 # tutor/
